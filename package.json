@@ -1,0 +1,26 @@
+{
+  "name": "hub-core",
+  "version": "1.0.0",
+  "description": "core models and interfaces for javascript / typescript hub",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parrot-ha/hub-core.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/parrot-ha/hub-core/issues"
+  },
+  "homepage": "https://github.com/parrot-ha/hub-core#readme",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
