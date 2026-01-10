@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/parrot-ha/hub-core#readme",
   "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "ts-jest": "^29.4.6",
     "typescript": "^5.9.3"
   },
   "dependencies": {

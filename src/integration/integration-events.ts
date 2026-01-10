@@ -28,6 +28,22 @@ export class IntegrationHubEvent extends IntegrationEvent {
     this._description = description;
     this._stateChange = stateChange;
   }
+
+  public get name(): string {
+    return this._name;
+  }
+
+  public get value(): string {
+    return this._value;
+  }
+
+  public get description(): string {
+    return this._description;
+  }
+
+  public get stateChange(): boolean {
+    return this._stateChange;
+  }
 }
 
 /*
