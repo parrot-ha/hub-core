@@ -1,12 +1,13 @@
 {
-  "name": "hub-core",
-  "version": "1.0.0",
+  "name": "@parrot-ha/hub-core",
+  "version": "1.0.1",
   "description": "core models and interfaces for javascript / typescript hub",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "jest --coverage ./src",
-    "build": "tsc"
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -23,9 +24,17 @@
   "devDependencies": {
     "@types/jest": "^30.0.0",
     "ts-jest": "^29.4.6",
-    "typescript": "^5.9.3"
-  },
-  "dependencies": {
+    "typescript": "^5.9.3",
     "jest": "^30.2.0"
+  },
+  "dependencies": {}
+  ,
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }
