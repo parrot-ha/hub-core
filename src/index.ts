@@ -1,0 +1,1 @@
+export { AbstractIntegration } from './integration/abstract-integration';
